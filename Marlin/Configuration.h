@@ -823,7 +823,7 @@
  * *** IT IS HIGHLY RECOMMENDED TO LEAVE THIS OPTION ENABLED! ***
  */
 #define PREVENT_COLD_EXTRUSION
-#define EXTRUDE_MINTEMP 160
+#define EXTRUDE_MINTEMP 155
 
 /**
  * Prevent a single extrusion longer than EXTRUDE_MAXLENGTH.
