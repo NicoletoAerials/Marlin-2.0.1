@@ -664,12 +664,11 @@
     #define DEFAULT_Ki_LIST {   1.54,   1.54 }
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
-   #define DEFAULT_Kp 36.68
-   #define DEFAULT_Ki 4.32
-   #define DEFAULT_Kd 77.93
+   #define DEFAULT_Kp 35.2025
+   #define DEFAULT_Ki 3.7958
+   #define DEFAULT_Kd 81.6171
   #endif
 #endif
-
 /**
  * Model Predictive Control for hotend
  *
@@ -754,9 +753,9 @@
   //#define DEFAULT_bedKd 305.4
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
-  #define DEFAULT_bedKp 70.85
-  #define DEFAULT_bedKi 11.33
-  #define DEFAULT_bedKd 295.34
+  #define DEFAULT_bedKp 107.5169
+  #define DEFAULT_bedKi 20.2271
+  #define DEFAULT_bedKd 381.0041
 #endif // PIDTEMPBED
 
 //===========================================================================
@@ -1171,7 +1170,8 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 500 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 199.82, 199.82, 800.31, 273.42 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 199.3024, 198.3143, 799.2056, 273.4200 }
+
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
  * Override with M203
