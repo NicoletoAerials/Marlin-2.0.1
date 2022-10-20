@@ -545,7 +545,7 @@
 #define TEMP_SENSOR_5 0
 #define TEMP_SENSOR_6 0
 #define TEMP_SENSOR_7 0
-#define TEMP_SENSOR_BED 11
+#define TEMP_SENSOR_BED 1
 #define TEMP_SENSOR_PROBE 0
 #define TEMP_SENSOR_CHAMBER 0
 #define TEMP_SENSOR_COOLER 0
@@ -1170,7 +1170,7 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 500 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 199.3024, 198.3143, 799.2056, 273.4200 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 199.3024, 198.3143, 799.2056, 93 }//{ 199.3024, 198.3143, 799.2056, 273.4200 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
