@@ -753,9 +753,9 @@
   //#define DEFAULT_bedKd 305.4
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
-  #define DEFAULT_bedKp 107.5169
-  #define DEFAULT_bedKi 20.2271
-  #define DEFAULT_bedKd 381.0041
+  #define DEFAULT_bedKp 59.4395
+  #define DEFAULT_bedKi 8.5995
+  #define DEFAULT_bedKd 273.8972
 #endif // PIDTEMPBED
 
 //===========================================================================
@@ -1170,7 +1170,7 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 500 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 199.3024, 198.3143, 799.2056, 93 }//{ 199.3024, 198.3143, 799.2056, 273.4200 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 199.3024, 198.3143, 799.2056, 137.1300}//{ 199.3024, 198.3143, 799.2056, 273.4200 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
