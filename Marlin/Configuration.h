@@ -1174,7 +1174,7 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 500 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 199.3024, 198.3143, 799.2056, 137.1300}//{ 199.3024, 198.3143, 799.2056, 273.4200 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 199, 198, 799, 273}//{ 199.3024, 198.3143, 799.2056, 273.4200 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
