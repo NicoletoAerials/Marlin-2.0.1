@@ -2979,7 +2979,7 @@
   #endif
 
   #if AXIS_IS_TMC(E0)
-    #define E0_CURRENT      550
+    #define E0_CURRENT      700
     #define E0_MICROSTEPS    16
     #define E0_RSENSE         0.11
     #define E0_CHAIN_POS     -1
@@ -3183,7 +3183,7 @@
   //#define CHOPPER_TIMING_U  CHOPPER_TIMING        // For U Axis
   //#define CHOPPER_TIMING_V  CHOPPER_TIMING        // For V Axis
   //#define CHOPPER_TIMING_W  CHOPPER_TIMING        // For W Axis
-  #define CHOPPER_TIMING_E  CHOPPER_DEFAULT_24V        // For Extruders (override below)
+  #define CHOPPER_TIMING_E  CHOPPER_09STEP_24V      // For Extruders (override below)
   //#define CHOPPER_TIMING_E1 CHOPPER_TIMING_E
   //#define CHOPPER_TIMING_E2 CHOPPER_TIMING_E
   //#define CHOPPER_TIMING_E3 CHOPPER_TIMING_E
